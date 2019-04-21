@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!--气泡相关 -->
+  <dimen name="popup_text_default_padding">6dp</dimen>
+  <dimen name="popup_text_left_right_padding">12dp</dimen>
+  <dimen name="popup_text_top_bottom_padding">6dp</dimen>
+  <dimen name="popup_vertical_arrow_width">18dp</dimen>
+  <dimen name="popup_vertical_arrow_height">5.5dp</dimen>
+  <dimen name="popup_horizontal_arrow_width">5.5dp</dimen>
+  <dimen name="popup_horizontal_arrow_height">18dp</dimen>
+  <dimen name="dimen_3dp">3dp</dimen>
+  <dimen name="text_size_14">14sp</dimen>
+  <dimen name="dimen_14sp">14sp</dimen>
+</resources>

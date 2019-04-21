@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#CDAD00"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="70dp">
+    <TextView
+      android:id="@+id/mytext1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#CDCD00"
+      android:layout_margin="5dp"
+      android:text="one by one"
+      android:textSize="20sp" />
+
+    <TextView
+      android:id="@+id/mytext2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#CDCD00"
+      android:text="one by one"
+      android:layout_margin="5dp"
+      android:textSize="20sp"
+      />
+
+    <TextView
+      android:id="@+id/mytext3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#CDCD00"
+      android:layout_margin="5dp"
+      android:text="one by one"
+      android:textSize="20sp" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+    <TextView
+      android:id="@+id/mytext11"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#CDCD00"
+      android:layout_margin="5dp"
+      android:text="one by one"
+      android:textSize="20sp"
+      android:gravity="center"/>
+
+    <TextView
+      android:id="@+id/mytext22"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#CDCD00"
+      android:text="one by one"
+      android:layout_margin="5dp"
+      android:textSize="20sp"
+      android:gravity="center"/>
+
+    <TextView
+      android:id="@+id/mytext33"
+      android:layout_width="wrap_content"
+      android:layout_height="100dp"
+      android:background="#CDCD00"
+      android:layout_margin="5dp"
+      android:text="one by one"
+      android:textSize="20sp"
+      android:gravity="center"/>
+  </LinearLayout>
+
+
+</LinearLayout>

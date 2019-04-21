@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#ffffff"
+  android:id="@+id/root"
+  android:orientation="vertical">
+
+  <android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginTop="20dp"
+    android:background="#EEE8CD"
+    android:layout_weight="1"
+    android:fillViewport="true">
+
+    <LinearLayout
+      android:id="@+id/ll_complex_bg_dim"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="30dp"
+      android:orientation="vertical">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+          android:id="@+id/btn_above"
+          android:layout_width="wrap_content"
+          android:layout_height="30dp"
+          android:layout_margin="5dp"
+          android:layout_gravity="center_horizontal"
+          android:text="上"
+          android:background="#F7F7F7"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:textSize="14sp" />
+
+        <TextView
+          android:id="@+id/btn_left"
+          android:layout_width="wrap_content"
+          android:layout_height="30dp"
+          android:gravity="center"
+          android:layout_weight="1"
+          android:background="#F5FFFA"
+          android:layout_gravity="center_horizontal"
+          android:layout_margin="5dp"
+          android:text="左"
+          android:textSize="14sp" />
+
+        <TextView
+          android:id="@+id/btn_right"
+          android:layout_width="wrap_content"
+          android:layout_height="30dp"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:background="#F5F5F5"
+          android:layout_gravity="center_horizontal"
+          android:layout_margin="5dp"
+          android:text="右"
+          android:textSize="14sp" />
+
+        <TextView
+          android:id="@+id/btn_below"
+          android:layout_width="wrap_content"
+          android:layout_height="30dp"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:background="#F5F5DC"
+          android:layout_gravity="center_horizontal"
+          android:layout_margin="5dp"
+          android:text="下"
+          android:textSize="14sp" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+        <TextView
+          android:id="@+id/touch_intercept"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:layout_margin="5dp"
+          android:background="#EEE685"
+          android:gravity="center"
+          android:text="消费一次点击事件"/>
+        <TextView
+          android:id="@+id/no_touch_intercept"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:layout_margin="5dp"
+          android:background="#F4A460"
+          android:gravity="center"
+          android:text="不消费一次点击事件"/>
+      </LinearLayout>
+
+      <TextView
+        android:id="@+id/many_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:background="#D1EEEE"
+        android:text="多个气泡连续显示,但每次只显示一个 one by one"/>
+
+      <TextView
+        android:id="@+id/many_popup_once_one"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:background="#D1EEEE"
+        android:text="多个气泡连续显示,但每屏只显示一个 once only one"/>
+
+    </LinearLayout>
+  </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
